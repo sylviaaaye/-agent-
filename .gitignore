@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments - IMPORTANT
+# This prevents uploading all installed packages
+agent-demo/
+venv/
+.venv/
+
+# Environment variables - CRITICAL
+# This file contains secret API keys
+.env
+.env.*
+
+# IDE & Editor Configuration
+.vscode/
+.idea/
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log 
